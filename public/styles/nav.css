@@ -1,0 +1,22 @@
+/* CSS Stylings for Nav Bar */
+
+nav {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Bungee', cursive;
+  color: #FFFFFF;
+  background-color: #4056A1;
+  padding: 1.5em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-title {
+  font-family: 'Source Sans Pro', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
