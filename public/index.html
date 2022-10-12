@@ -17,14 +17,16 @@
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/tweets.css" type="text/css" />
     
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-
-
     <!-- Font Awesome Library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Taskbar icon -->
+    <link rel="icon" type="image/x-icon" href="/images/tweetericon.png">
 
   </head>
 
@@ -62,9 +64,23 @@
         </div>
       </form>
     </section>
-    <div class="tweets">
-      
-    </div>
+    <article class="tweets-container">
+      <article>
+        <header>
+          <div>PICTURE + Name Here</div>
+          <div class="transparent">@GoesHere</div>
+        </header>
+        <div class = "tweet">tweet will go here.</div>
+        <footer>
+          <div>date will go here</div>
+          <div>
+            <i class="fa-solid fa-flag"></i>
+            <i class="fa-solid fa-retweet"></i>
+            <i class="fa-solid fa-heart"></i>
+          </div>
+        </footer>
+      </article>
+    </article>
   </main>
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
