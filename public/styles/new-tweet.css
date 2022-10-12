@@ -1,0 +1,42 @@
+/* CSS Stylings for New Tweets */
+
+.new-tweet {
+  padding-top: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 5px;
+  background-color: #f4f1ec;
+  border: none;
+  border-bottom: solid;
+  border-width: medium;
+  outline: none;
+  resize: none;
+}
+
+button {
+  background-color: #4056A1;
+  font-family: 'Bungee', cursive;
+  color: #FFFFFF;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+output {
+  font-family: 'Bungee', cursive;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
