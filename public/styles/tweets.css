@@ -1,4 +1,14 @@
 .tweets-container {
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tweet:hover {
+  box-shadow: 5px 5px lightgray;
+}
+
+.tweet {
   border-style: solid;
   border-width: medium;
   padding: 10px;
@@ -6,13 +16,9 @@
   margin-bottom: 20px;
 }
 
-.tweets-container:hover {
-  box-shadow: 5px 5px lightgray;
-}
-
 article.tweets-container header {
   margin-top: 0px;
-  background-color:  #f4f1ec;
+  background-color: #f4f1ec;
   background-image: none;
   width: 100%;
   height: auto;
@@ -24,12 +30,12 @@ article.tweets-container header {
   align-items: center;
 }
 
-.transparent {
+.handle {
   color: lightgray;
   font-weight: bold;
 }
 
-.tweet {
+.message {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -37,9 +43,9 @@ article.tweets-container header {
   width: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
-  padding-left: 25px;
-  padding-right: 25px;
-  font-weight:bold;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: bold;
 }
 
 article.tweets-container footer {
@@ -58,5 +64,20 @@ i {
 }
 
 i:hover {
-  color:#4056A1;
+  color: #4056A1;
+}
+
+.pic-and-name {
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar {
+  margin-right: 20px;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
