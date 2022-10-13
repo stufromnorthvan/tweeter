@@ -6,7 +6,8 @@
 
 textarea {
   width: 100%;
-  padding: 5px;
+  padding: 10px;
+  padding-top: 20px;
   background-color: #f4f1ec;
   border: none;
   border-bottom: solid;
@@ -47,4 +48,16 @@ output {
 
 .max-button {
   background-color: crimson;
+}
+
+.button-error{
+  display: flex;
+  align-items: center;
+}
+
+error {
+  color: crimson;
+  margin-left: 15px;
+  font-size: 70%;
+  font-weight: bold;
 }

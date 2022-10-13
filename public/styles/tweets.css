@@ -23,6 +23,7 @@ article.tweets-container header {
   width: 100%;
   height: auto;
   padding: 20px;
+  padding-bottom: 0px;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -39,6 +40,7 @@ article.tweets-container header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  text-align: left;
   height: auto;
   width: 100%;
   padding-top: 40px;
@@ -71,7 +73,7 @@ i:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-  
+
 }
 
 .avatar {
