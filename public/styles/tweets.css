@@ -14,6 +14,7 @@
   padding: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
+  word-wrap: break-word;
 }
 
 article.tweets-container header {
@@ -41,6 +42,7 @@ article.tweets-container header {
   justify-content: flex-start;
   align-items: center;
   text-align: left;
+  word-break: break-all;
   height: auto;
   width: 100%;
   padding-top: 40px;
@@ -48,6 +50,7 @@ article.tweets-container header {
   padding-left: 30px;
   padding-right: 30px;
   font-weight: bold;
+  flex-wrap: wrap;
 }
 
 article.tweets-container footer {
@@ -73,7 +76,6 @@ i:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-
 }
 
 .avatar {

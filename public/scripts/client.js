@@ -56,11 +56,11 @@ $(document).ready(function() {
     const $tweetform = $('.tweet-form');
     event.preventDefault();
     if ($('#tweet-text').val().length === 0) {
-      $('error').text("Please enter a tweet.");
+      $('error').text("Please enter tweet.");
       throw Error("User entered a tweet with no characters");
     }
     if ($('#tweet-text').val().length > 140) {
-      $('error').text("Your tweet is too long.");
+      $('error').text("Tweet is too long.");
       throw Error("User entered a tweet that exceeds character limit.");
     }
     const formData = ($tweetform.serialize());
