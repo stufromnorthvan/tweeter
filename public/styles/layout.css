@@ -23,13 +23,14 @@ body {
   background-color: #f4f1ec;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 24px;
+  width: 100%;
 }
 
 main {
-  width: 100%;
   background-color: #f4f1ec;
   margin: auto;
   text-align: center;
+  width: 100%;
 }
 
 /*
@@ -43,12 +44,13 @@ main {
     flex-direction: column;
     margin: 30px;
     margin-top: 100px;
+    width: 55%;
   }
 
   header {
-    width: 65%;
+    width: 45%;
     margin-left: 40px;
-    margin-top: 140px;
+    margin-top: 137.5px;
   }
 
   body {

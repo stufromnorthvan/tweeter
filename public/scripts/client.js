@@ -64,6 +64,7 @@ $(document).ready(function() {
       errorFade;
       throw Error("User entered a tweet that exceeds character limit.");
     }
+    $('error').text("");
     const formData = ($tweetform.serialize());
     console.log("tweet currently being sent to server from current user: ", formData);
     $.post('/tweets', formData)
