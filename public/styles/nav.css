@@ -10,7 +10,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color:gainsboro;
+  background-color: gainsboro;
   background-image: url("https://www.transparenttextures.com/patterns/debut-light.png");
   height: 50px;
 }
@@ -25,4 +25,3 @@ nav {
 .arrow-icon {
   color: crimson;
 }
-

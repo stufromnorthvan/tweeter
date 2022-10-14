@@ -53,12 +53,12 @@ $(document).ready(function() {
   $('.tweet-form').on("submit", (event) => {
     const $tweetform = $('.tweet-form');
     event.preventDefault();
-    let errorFade = $( "error" ).fadeIn( 300 ).delay( 1500 ).fadeOut( 400 );
+    let errorFade = $("error").fadeIn(300).delay(1500).fadeOut(400);
     if ($('#tweet-text').val().length === 0) {
       $('error').text("Please enter tweet");
       errorFade;
       throw Error("User entered a tweet with no characters");
-    } 
+    }
     if ($('#tweet-text').val().length > 140) {
       $('error').text("Tweet is too long");
       errorFade;

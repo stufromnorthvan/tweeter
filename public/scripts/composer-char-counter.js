@@ -7,7 +7,7 @@ $(document).ready(function() {
     let textLength = $(this).val().length;
     let diff = 140 - textLength;
     $counter.text(diff);
-     if (diff < 0) {
+    if (diff < 0) {
       $counter.addClass('max-reached');
       $(".button-container button").addClass("max-button");
     } else {

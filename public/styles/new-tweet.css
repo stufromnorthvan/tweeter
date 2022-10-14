@@ -46,14 +46,14 @@ output {
 }
 
 .max-reached {
-  color:crimson;
+  color: crimson;
 }
 
 .max-button {
   background-color: crimson;
 }
 
-.button-error{
+.button-error {
   display: flex;
   align-items: center;
 }
@@ -64,5 +64,5 @@ error {
   margin-left: 15px;
   font-size: 70%;
   font-weight: bold;
-  display: none; 
+  display: none;
 }
