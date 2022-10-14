@@ -5,10 +5,12 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 400px;
-  width: 100%;
   margin-top: 120px;
+  height: 400px;
   padding-top: 20px;
-  background-color: gainsboro;
+  background-color:gainsboro;
   background-image: url("https://www.transparenttextures.com/patterns/debut-light.png");
+  margin-top: 50px;
+  padding-top: 35px;
 }
+

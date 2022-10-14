@@ -1,17 +1,18 @@
 /* CSS Stylings for Nav Bar */
 
 nav {
-  height: 120px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-family: 'Bungee', cursive;
   color: #FFFFFF;
-  background-color: #4056A1;
   padding: 1.5em;
   position: fixed;
   top: 0;
   width: 100%;
+  background-color:gainsboro;
+  background-image: url("https://www.transparenttextures.com/patterns/debut-light.png");
+  height: 50px;
 }
 
 .nav-title {
@@ -24,3 +25,4 @@ nav {
 .arrow-icon {
   color: crimson;
 }
+

@@ -13,11 +13,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Source+Sans+Pro:ital,wght@0,300;0,600;1,300;1,600&display=swap" rel="stylesheet">
 
     <!-- App CSS -->
-    <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
     <link rel="stylesheet" href="/styles/tweets.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
     
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -28,6 +28,9 @@
 
     <!-- Taskbar icon -->
     <link rel="icon" type="image/x-icon" href="/images/tweetericon.png">
+
+    <!-- Disable Viewport Zooming -->
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
 
   </head>
 
@@ -48,12 +51,10 @@
     <div>
       <img src="/images/profile-hex.png"> 
     </div>
-    <br>
     <div>
       <h2>Tony Chin</h2>
     </div>
   </header>
-
     <!-- Page-specific (main) content here -->
   <main>
     <section class="new-tweet">
@@ -69,23 +70,6 @@
       </form>
     </section>
     <article class="tweets-container">
-      <!-- <article class="tweet">
-        <header>
-          <span class="pic-and-name">
-            <div class="avatar">PICTURE</div><div class="username">Name Here</div>
-          </span>
-          <div class="handle">@GoesHere</div>
-        </header>
-        <div class = "message">tweet will go here.</div>
-        <footer>
-          <div>date will go here</div>
-          <div>
-            <i class="fa-solid fa-flag"></i>
-            <i class="fa-solid fa-retweet"></i>
-            <i class="fa-solid fa-heart"></i>
-          </div>
-        </footer>
-      </article> -->
     </article>
   </main>
     <!-- App JS -->

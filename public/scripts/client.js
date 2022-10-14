@@ -33,6 +33,7 @@ const createTweetElement = function(data) {
 };
 
 const renderTweets = function(data) {
+  $('.tweets-container').empty();
   for (let tweet of data)
     $('.tweets-container').prepend(createTweetElement(tweet));
 };
@@ -49,18 +50,15 @@ loadTweets();
 
 $(document).ready(function() {
   console.log("- client.js is active");
-  //grab form
-  // const $tweetform = $('.tweet-form');
-  //listen for event
   $('.tweet-form').on("submit", (event) => {
     const $tweetform = $('.tweet-form');
     event.preventDefault();
     if ($('#tweet-text').val().length === 0) {
-      $('error').text("Please enter tweet.");
+      $('error').text("Please enter tweet");
       throw Error("User entered a tweet with no characters");
     }
     if ($('#tweet-text').val().length > 140) {
-      $('error').text("Tweet is too long.");
+      $('error').text("Tweet is too long");
       throw Error("User entered a tweet that exceeds character limit.");
     }
     const formData = ($tweetform.serialize());
@@ -76,7 +74,6 @@ $(document).ready(function() {
       })
       .catch((error) => {
         console.log("error: ", error);
-        // alert(`🐦 An error has occured! ${error} 🐦`);
       });
   });
 });

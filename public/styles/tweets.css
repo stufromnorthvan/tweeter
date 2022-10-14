@@ -12,8 +12,8 @@
   border-style: solid;
   border-width: medium;
   padding: 10px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   word-wrap: break-word;
 }
 
@@ -21,7 +21,7 @@ article.tweets-container header {
   margin-top: 0px;
   background-color: #f4f1ec;
   background-image: none;
-  width: 100%;
+  width: auto;
   height: auto;
   padding: 20px;
   padding-bottom: 0px;
@@ -30,6 +30,7 @@ article.tweets-container header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  word-wrap: break-word;
 }
 
 .handle {
@@ -63,12 +64,12 @@ article.tweets-container footer {
   font-size: 80%;
 }
 
-i {
+article i {
   margin-left: 5px;
   margin-right: 5px;
 }
 
-i:hover {
+article i:hover {
   color: #4056A1;
 }
 
@@ -81,4 +82,3 @@ i:hover {
 .avatar {
   margin-right: 20px;
 }
-
