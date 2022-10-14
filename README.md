@@ -24,7 +24,11 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## 🐣 Screenshots 🐣
 
+- Desktop Version
+
 !["Desktop Version"](https://github.com/stufromnorthvan/tweeter/blob/master/docs/TweeterDeskScreen.png?raw=true)
+
+- Mobile Version
 
 !["Mobile Version"](https://github.com/stufromnorthvan/tweeter/blob/master/docs/TweeterMobileScreen.png?raw=true)
 
