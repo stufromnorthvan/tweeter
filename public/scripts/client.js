@@ -53,23 +53,21 @@ $(document).ready(function() {
   $('.tweet-form').on("submit", (event) => {
     const $tweetform = $('.tweet-form');
     event.preventDefault();
+    let errorFade = $( "error" ).fadeIn( 300 ).delay( 1500 ).fadeOut( 400 );
     if ($('#tweet-text').val().length === 0) {
       $('error').text("Please enter tweet");
+      errorFade;
       throw Error("User entered a tweet with no characters");
-    }
+    } 
     if ($('#tweet-text').val().length > 140) {
       $('error').text("Tweet is too long");
+      errorFade;
       throw Error("User entered a tweet that exceeds character limit.");
     }
     const formData = ($tweetform.serialize());
     console.log("tweet currently being sent to server from current user: ", formData);
-    $.ajax({
-      method: 'POST',
-      url: '/tweets',
-      data: formData
-    })
+    $.post('/tweets', formData)
       .then((response) => {
-        console.log("response: ", response);
         loadTweets();
       })
       .catch((error) => {

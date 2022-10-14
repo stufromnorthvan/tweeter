@@ -26,7 +26,7 @@ body {
 }
 
 main {
-  width: 90%;
+  width: 100%;
   background-color: #f4f1ec;
   margin: auto;
   text-align: center;
@@ -36,32 +36,19 @@ main {
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
 
-@media only screen and (min-width: 768px) {
-nav {
-  background-color:gainsboro;
-  background-image: url("https://www.transparenttextures.com/patterns/debut-light.png");
-  height: 50px;
-}
-
-header {
-  margin-top: 50px;
-  padding-top: 35px;
-}
-
-}
 
 @media only screen and (min-width: 1024px) {
   main {
     display: flex;
     flex-direction: column;
-    margin: 40px;
-    margin-top: 120px;
+    margin: 30px;
+    margin-top: 100px;
   }
 
   header {
-    width: 43.5%;
+    width: 65%;
     margin-left: 40px;
-    margin-top: 160px;
+    margin-top: 140px;
   }
 
   body {

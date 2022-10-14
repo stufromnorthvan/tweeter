@@ -2,6 +2,8 @@
 
 .new-tweet {
   padding-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 textarea {
@@ -14,6 +16,9 @@ textarea {
   border-width: medium;
   outline: none;
   resize: none;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
 }
 
 button {
@@ -25,7 +30,7 @@ button {
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  margin-top: 7px;
+  margin-top: 5px;
 }
 
 output {
@@ -55,7 +60,9 @@ output {
 
 error {
   color: crimson;
+  margin-top: 5px;
   margin-left: 15px;
   font-size: 70%;
   font-weight: bold;
+  display: none; 
 }
