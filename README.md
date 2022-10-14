@@ -1,6 +1,6 @@
 # 🐣 Tweeter Project 🐣
 
-Tweeter is a simple, single-page Twitter clone. It has a header that includes profile information, a feed with pre-made tweets and a text field for you to enter your own tweets. The tweets generated will post under a randomized profile ID and avatar. The feed then updates with your new content in real time. There is a character counter affixed to the text field that will show you how many characters you have left before you reach the limit. Errors are handled and error messages displayed directly underneath the text field.
+Tweeter is a simple, single-page Twitter clone. It has a header that includes profile information, a feed with pre-made tweets and a text field for you to enter your own tweets. The tweets generated will post under a randomized profile ID and avatar. The feed then updates with your new content in real time. There is a character counter affixed to the text field that will show you how many characters you have left before you reach the limit. Errors are handled and error messages displayed directly underneath the text field. Features responsive displays for tablets and mobile devices.
 
 This repository is the starter code for the project: Students will fork and clone this repository, then build upon it to practice their HTML, CSS, JS, jQuery and AJAX front-end skills, and their Node, Express back-end skills.
 
