@@ -22,6 +22,12 @@ This repository is the starter code for the project: Students will fork and clon
 - Chance
 - MD5
 
+## 🐣 Screenshots 🐣
+
+!["Desktop Version"](https://github.com/stufromnorthvan/tweeter/blob/master/docs/TweeterDeskScreen.png?raw=true)
+
+!["Mobile Version"](https://github.com/stufromnorthvan/tweeter/blob/master/docs/TweeterMobileScreen.png?raw=true)
+
 ## 🐣 Extra Information 🐣
 
 🪶 This version of tweeter was made by Stu Mitchell of the Tla'Amin Nation. 🪶
