@@ -26,11 +26,11 @@ It has a header with the HTML markup for profile information, a feed with some p
 
 - Desktop Version
 
-!["Desktop Version"](https://github.com/stufromnorthvan/tweeter/blob/master/docs/TweeterDeskScreen.png?raw=true)
+!["Desktop Version"](https://github.com/stufromnorthvan/tweeter/blob/master/docs/TweeterDeskScreen1.png?raw=true)
 
 - Mobile Version
 
-!["Mobile Version"](https://github.com/stufromnorthvan/tweeter/blob/master/docs/TweeterMobileScreen.png?raw=true)
+!["Mobile Version"](https://github.com/stufromnorthvan/tweeter/blob/master/docs/TweeterMobileScreen1.png?raw=true)
 
 ## 🐣 Extra Information 🐣
 
