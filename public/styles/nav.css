@@ -1,5 +1,6 @@
 /* CSS Stylings for Nav Bar */
 
+/* Container for navigation bar items and site name */
 nav {
   display: flex;
   align-items: center;
@@ -14,14 +15,14 @@ nav {
   background-image: url("https://www.transparenttextures.com/patterns/debut-light.png");
   height: 50px;
 }
-
+/* 'Write a new tweet!' text that appears in navigation bar */
 .nav-title {
   font-family: 'Source Sans Pro', cursive;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
+/* Arrow icon underneath nav-title ('Write a new tweet!') */
 .arrow-icon {
   color: crimson;
 }

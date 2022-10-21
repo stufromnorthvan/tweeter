@@ -4,6 +4,8 @@
  * Do not modify these two selectors, please
  */
 
+ /* Establishing HTML Layout */
+
 html {
   box-sizing: border-box;
 }
@@ -15,7 +17,7 @@ html {
 }
 
 /*
- * Global layout stuff
+ * Global Layout
  */
 
 body {
@@ -34,7 +36,7 @@ main {
 }
 
 /*
- * Additional CSS can be defined below or in other CSS files, as per instructions
+ * Responsive Design for Desktop Computers only, global layout changes at 1024px wide
  */
 
 

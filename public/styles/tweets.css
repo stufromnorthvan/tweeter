@@ -1,13 +1,16 @@
+/* CSS Stylings for tweet contents */
+
+/* Tweet container, empty space that contains styled tweet */
 .tweets-container {
   padding: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
+/* Box shadow appears when tweet is hovered over */
 .tweet:hover {
   box-shadow: 5px 5px lightgray;
 }
-
+/* Tweet border with contents, inside tweet container */
 .tweet {
   border-style: solid;
   border-width: medium;
@@ -15,7 +18,7 @@
   margin-top: 15px;
   margin-bottom: 15px;
 }
-
+/* Tweet container header that contains user information including username and handle */
 article.tweets-container header {
   margin: 5px;
   margin-top: 0px;
@@ -31,12 +34,12 @@ article.tweets-container header {
   justify-content: space-between;
   align-items: center;
 }
-
+/* Handle, a short id starting with @ */
 .handle {
   color: lightgray;
   font-weight: bold;
 }
-
+/* Message, the actual text of the tweet */
 .message {
   text-align: left;
   height: auto;
@@ -48,7 +51,7 @@ article.tweets-container header {
   font-weight: bold;
   overflow-wrap: break-word;
 }
-
+/* Tweet container footer, contains timeago data and icons */
 article.tweets-container footer {
   padding: 20px;
   border-top: solid;
@@ -58,22 +61,22 @@ article.tweets-container footer {
   justify-content: space-between;
   font-size: 80%;
 }
-
+/* Icons */
 article i {
   margin-left: 5px;
   margin-right: 5px;
 }
-
+/* Icons change colour when hovered over */
 article i:hover {
   color: #4056A1;
 }
-
+/* Picture and name container to group avatar and name together */
 .pic-and-name {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-
+/* Avatar container for avatar image */
 .avatar {
   margin-right: 20px;
 } 

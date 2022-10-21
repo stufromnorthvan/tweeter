@@ -1,5 +1,6 @@
 /* CSS Stylings for Header */
 
+/* Header contains user's own profile picture and username  */
 header {
   display: flex;
   flex-direction: column;

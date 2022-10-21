@@ -1,3 +1,5 @@
+// Helper functions for saving and sorting database
+
 "use strict";
 
 // Simulates the kind of delay we see with network or filesystem operations

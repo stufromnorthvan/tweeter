@@ -1,11 +1,12 @@
 /* CSS Stylings for New Tweets */
 
+/* Container for new tweet text area */
 .new-tweet {
   padding-top: 20px;
   margin-left: 10px;
   margin-right: 10px;
 }
-
+/* Tweet text area */
 textarea {
   width: 100%;
   padding: 10px;
@@ -19,7 +20,7 @@ textarea {
   display: flex;
   align-items: flex-start;
 }
-
+/* Tweet button */
 button {
   background-color: #4056A1;
   font-family: 'Bungee', cursive;
@@ -31,32 +32,32 @@ button {
   padding-right: 10px;
   margin-top: 5px;
 }
-
+/* Character counter numbers */
 output {
   font-family: 'Bungee', cursive;
   margin-top: 7px;
 }
-
+/* Container for tweet button and character counter */
 .button-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
 }
-
+/* Turns character counter text crimson when maximum chars reached */
 .max-reached {
   color: crimson;
 }
-
+/* Turns tweet button crimson when maximum chars reached */
 .max-button {
   background-color: crimson;
 }
-
+/* Container for error message */
 .button-error {
   display: flex;
   align-items: center;
 }
-
+/* Error message */
 error {
   color: crimson;
   margin-top: 5px;

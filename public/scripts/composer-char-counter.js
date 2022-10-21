@@ -1,4 +1,4 @@
-// Script for character counter
+// Script for character counter. Counts characters in tweet text field, displays errors with CSS
 
 $(document).ready(function() {
   console.log("- character counter is active.");

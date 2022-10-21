@@ -1,3 +1,5 @@
+// Helper functions to generate random user data
+
 "use strict";
 
 const Chance      = require("chance"),
