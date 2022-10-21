@@ -93,7 +93,8 @@ $(document).ready(function() {
       .catch((error) => {
         console.log("error: ", error);
       });
-    // Clears tweet text area after tweet is successfully sent to server
+    // Clears tweet text area and resets counter after tweet is sent
     $('#tweet-text').val("");
+    $('.counter').text(140);
   });
 });
