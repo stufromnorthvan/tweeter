@@ -51,6 +51,9 @@ const loadTweets = () => {
     .then(function(getTweets) {
       renderTweets(getTweets);
       console.log(`- success, tweets loaded!`);
+    })
+    .catch((error) => {
+      console.log("error: ", error);
     });
 };
 
